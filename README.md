@@ -23,6 +23,5 @@ update_something() ->
 
 
 ### Screenshot
-![alt text](https://raw.githubusercontent.com/lk-geimfari/farbe/master/other/main.png)
-
+[Look here](https://raw.githubusercontent.com/lk-geimfari/farbe/master/other/main.png)
 
