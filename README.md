@@ -5,7 +5,7 @@
 ------
 
 ### Usage
-Just use follow format {color, "Text"}
+Just use the following format {color, "Text"}
 ```erlang
 farbe:cprint({red, "Colored text"}).
 ```
