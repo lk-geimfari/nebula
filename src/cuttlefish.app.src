@@ -1,4 +1,4 @@
-{application, farbe,
+{application, cuttlefish,
  [{description, "Library for colored output in Erlang"},
   {vsn, "0.1.0"},
   {registered, []},
@@ -9,7 +9,7 @@
   {env,[]},
   {modules, []},
 
-  {maintainers, []},
-  {licenses, []},
-  {links, []}
+  {maintainers, ["Lk Geimfari"]},
+  {licenses, ["BSD-3-Clause"]},
+  {links, ["https://github.com/lk-geimfari/cuttlefish"]}
  ]}.

@@ -1,38 +1,38 @@
--module(farbe).
+-module(cuttlefish).
 
--export ([print/1]).
+-export ([println/1]).
 -export ([background/1]).
 
 
-%%============================================================
+%%====================================================
 %% Functions for colored output
-%%============================================================
+%%====================================================
 
-print({black,  Str})  ->
+println({black,  Str})  ->
   io:format("\033[30m~s\033[0m~n", [Str]);
-print({red,    Str})  ->
+println({red,    Str})  ->
   io:format("\e[31m~s\033[0m~n",   [Str]);
-print({green,  Str})  ->
+println({green,  Str})  ->
   io:format("\033[92m~s\033[0m~n", [Str]);
-print({orange, Str})  ->
+println({orange, Str})  ->
   io:format("\033[33m~s\033[0m~n", [Str]);
-print({blue,   Str})  ->
+println({blue,   Str})  ->
   io:format("\033[34m~s\033[0m~n", [Str]);
-print({purple, Str})  ->
+println({purple, Str})  ->
   io:format("\033[35m~s\033[0m~n", [Str]);
-print({yellow, Str})  ->
+println({yellow, Str})  ->
   io:format("\033[93m~s\033[0m~n", [Str]);
-print({cyan,   Str})  ->
+println({cyan,   Str})  ->
   io:format("\033[96m~s\033[0m~n", [Str]);
-print({grey,   Str})  ->
+println({grey,   Str})  ->
   io:format("\033[37m~s\033[0m",   [Str]);
-print({Other,  Str})  ->
+println({Other,  Str})  ->
   io:format("~s~n", [Str]).
 
 
-%%============================================================
+%%====================================================
 %% Functions for colored  background.
-%%============================================================
+%%====================================================
 
 background({black, Str})  ->
   io:format("\e[40m~s\033[0m", [Str]);
