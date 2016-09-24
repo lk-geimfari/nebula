@@ -1,13 +1,12 @@
--module (farbe).
--author("Lk Geimfari").
-
+-module(farbe).
 
 -export ([print/1]).
 -export ([background/1]).
--export ([underline/1]).
 
 
-underline(Str) -> io:format("\e[4m~s\033[0m~n", [Str]).
+%%============================================================
+%% Functions for colored output
+%%============================================================
 
 print({black,  Str})  ->
   io:format("\033[30m~s\033[0m~n", [Str]);
@@ -30,6 +29,10 @@ print({grey,   Str})  ->
 print({Other,  Str})  ->
   io:format("~s~n", [Str]).
 
+
+%%============================================================
+%% Functions for colored  background.
+%%============================================================
 
 background({black, Str})  ->
   io:format("\e[40m~s\033[0m", [Str]);

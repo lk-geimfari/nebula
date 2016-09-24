@@ -20,7 +20,3 @@ update_something() ->
   %% ...
   print({green, "Something has been updated successfully!"}).
 ```
-
-
-### Screenshot
-![alt text](https://raw.githubusercontent.com/lk-geimfari/farbe/master/other/main.png)
