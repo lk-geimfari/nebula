@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Cuttlefish by lk-geimfari</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Cuttlefish</h1>
+        <p>54 SLOC library for colored (ANSI) output in Erlang. It&#39;s can be useful when you need to create user friendly CLI application (colored errors, warning etc.) </p>
+
+        <p class="view"><a href="https://github.com/lk-geimfari/cuttlefish">View the Project on GitHub <small>lk-geimfari/cuttlefish</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/lk-geimfari/cuttlefish/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/lk-geimfari/cuttlefish/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/lk-geimfari/cuttlefish">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a id="cuttlefish" class="anchor" href="#cuttlefish" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cuttlefish</h2>
+
+<p><a href="https://travis-ci.org/lk-geimfari/cuttlefish"><img src="https://travis-ci.org/lk-geimfari/cuttlefish.svg?branch=master" alt="Build Status"></a>
+<a href="https://github.com/lk-geimfari/cuttlefish/blob/master/LICENSE"><img src="https://img.shields.io/pypi/l/Django.svg?maxAge=2592000" alt="BSD"></a></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lk-geimfari/cuttlefish/master/other/logo.png">
+</p>
+
+<hr>
+
+<h3>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description</h3>
+
+<p>Cuttlefish is a small library for colored (ANSI) output in Erlang.</p>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h3>
+
+<p>Just use the following format {color, "Text"}</p>
+
+<div class="highlight highlight-source-erlang"><pre><span class="pl-en">cuttlefish</span>:<span class="pl-en">println</span>({<span class="pl-c1">red</span>, <span class="pl-s"><span class="pl-pds">"</span>Colored text<span class="pl-pds">"</span></span>}).</pre></div>
+
+<h3>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h3>
+
+<div class="highlight highlight-source-erlang"><pre>-<span class="pl-k">import</span>(<span class="pl-en">cuttlefish</span>, [<span class="pl-en">println</span>/<span class="pl-c1">1</span>]).
+
+<span class="pl-en">update_something</span>() <span class="pl-k">-&gt;</span>
+  <span class="pl-c">%% ...</span>
+  <span class="pl-c">%% ...</span>
+  <span class="pl-c">%% ...</span>
+  <span class="pl-en">println</span>({<span class="pl-c1">green</span>, <span class="pl-s"><span class="pl-pds">"</span>Something has been updated successfully!<span class="pl-pds">"</span></span>}).</pre></div>
+
+<h3>
+<a id="docs" class="anchor" href="#docs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Docs</h3>
+
+<div class="highlight highlight-source-erlang"><pre>-<span class="pl-k">import</span>(<span class="pl-en">cuttlefish</span>, [<span class="pl-en">println</span>/<span class="pl-c1">1</span>]).
+
+
+<span class="pl-c">%%=========================</span>
+<span class="pl-c">%% Text</span>
+<span class="pl-c">%%=========================</span>
+<span class="pl-en">println</span>({<span class="pl-c1">red</span>,    <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">println</span>({<span class="pl-c1">black</span>,  <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">println</span>({<span class="pl-c1">green</span>,  <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">println</span>({<span class="pl-c1">orange</span>, <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">println</span>({<span class="pl-c1">blue</span>,   <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">println</span>({<span class="pl-c1">purple</span>, <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">println</span>({<span class="pl-c1">yellow</span>, <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">println</span>({<span class="pl-c1">cyan</span>,   <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">println</span>({<span class="pl-c1">gray</span>,   <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+
+<span class="pl-c">%%=========================</span>
+<span class="pl-c">%% Background</span>
+<span class="pl-c">%%=========================</span>
+
+<span class="pl-en">background</span>({<span class="pl-c1">red</span>,    <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">background</span>({<span class="pl-c1">black</span>,  <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">background</span>({<span class="pl-c1">green</span>,  <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">background</span>({<span class="pl-c1">yellow</span>, <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">background</span>({<span class="pl-c1">blue</span>,   <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">background</span>({<span class="pl-c1">purple</span>, <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">background</span>({<span class="pl-c1">cyan</span>,   <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+<span class="pl-en">background</span>({<span class="pl-c1">red</span>,    <span class="pl-s"><span class="pl-pds">"</span>Text<span class="pl-pds">"</span></span>}).
+</pre></div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/lk-geimfari">lk-geimfari</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
