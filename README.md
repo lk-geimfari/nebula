@@ -7,7 +7,7 @@ Cuttlefish
 <p align="center">
   <img src="https://raw.githubusercontent.com/lk-geimfari/cuttlefish/master/other/logo.png">
 </p>
-
+---------
 
 ### Usage
 Just use the following format {color, "Text"}
