@@ -1,3 +1,9 @@
+
+Cuttlefish
+-----------
+[![Build Status](https://travis-ci.org/lk-geimfari/cuttlefish.svg?branch=master)](https://travis-ci.org/lk-geimfari/cuttlefish)
+[![BSD](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000)](https://github.com/lkgeimfari/cuttlefish/blob/master/LICENSE)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/lk-geimfari/cuttlefish/master/other/logo.png">
 </p>
