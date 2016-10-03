@@ -14,7 +14,7 @@ Just use the following format {color, "Text"}
 ```erlang
 cuttlefish:println({red, "Colored text"}).
 ```
-
+---------
 ### Example
 ```erlang
 -import(cuttlefish, [println/1]).
@@ -25,7 +25,7 @@ update_something() ->
   %% ...
   println({green, "Something has been updated successfully!"}).
 ```
-
+---------
 ### Docs
 
 ```erlang
