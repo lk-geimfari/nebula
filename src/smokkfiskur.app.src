@@ -1,6 +1,6 @@
-{application, cuttlefish,
+{application, smokkfiskur,
  [{description, "Library for colored output in Erlang"},
-  {vsn, "0.1.0"},
+  {vsn, "0.1.1"},
   {registered, []},
   {applications,
    [kernel,
@@ -11,5 +11,5 @@
 
   {maintainers, ["Lk Geimfari"]},
   {licenses, ["BSD-3-Clause"]},
-  {links, ["https://github.com/lk-geimfari/cuttlefish"]}
+  {links, ["https://github.com/lk-geimfari/smokkfiskur"]}
  ]}.

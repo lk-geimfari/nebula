@@ -1,4 +1,4 @@
--module(cuttlefish).
+-module(smokkfiskur).
 
 -export ([println/1]).
 -export ([background/1]).

@@ -1,23 +1,23 @@
 
-Cuttlefish
+Smokkfiskur
 -----------
 [![Build Status](https://travis-ci.org/lk-geimfari/cuttlefish.svg?branch=master)](https://travis-ci.org/lk-geimfari/cuttlefish)
-[![BSD](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000)](https://github.com/lkgeimfari/cuttlefish/blob/master/LICENSE)
+[![BSD](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000)](https://github.com/lk-geimfari/smokkfiskur/blob/master/LICENSE)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lk-geimfari/cuttlefish/master/other/logo.png">
+  <img src="https://raw.githubusercontent.com/lk-geimfari/smokkfiskur/master/other/logo.png">
 </p>
 ---------
 
 ### Usage
 Just use the following format {color, "Text"}
 ```erlang
-cuttlefish:println({red, "Colored text"}).
+smokkfiskur:println({red, "Colored text"}).
 ```
 ---------
 ### Example
 ```erlang
--import(cuttlefish, [println/1]).
+-import(smokkfiskur, [println/1]).
 
 update_something() ->
   %% ...
@@ -29,7 +29,7 @@ update_something() ->
 ### Docs
 
 ```erlang
--import(cuttlefish, [println/1]).
+-import(smokkfiskur, [println/1]).
 
 
 %%=========================
