@@ -8,6 +8,8 @@ Smokkfiskur
   <img src="https://raw.githubusercontent.com/lk-geimfari/smokkfiskur/master/other/logo.png">
 </p>
 ---------
+Smokkfiskur is a small library for colored (ANSI) output in Erlang. It's can be useful when you need to create a command-line applications.
+
 
 ### Usage
 Just use the following format {color, "Text"}
