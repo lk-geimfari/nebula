@@ -1,7 +1,7 @@
 
 Smokkfiskur
 -----------
-[![Build Status](https://travis-ci.org/lk-geimfari/cuttlefish.svg?branch=master)](https://travis-ci.org/lk-geimfari/cuttlefish)
+[![Build Status](https://travis-ci.org/lk-geimfari/smokkfiskur.svg?branch=master)](https://travis-ci.org/lk-geimfari/smokkfiskur)
 [![BSD](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000)](https://github.com/lk-geimfari/smokkfiskur/blob/master/LICENSE)
 
 <p align="center">
@@ -14,38 +14,36 @@ Smokkfiskur is a small library for colored (ANSI) output in Erlang. It's can be 
 ### Usage
 Just use the following format {color, "Text"}
 ```erlang
-smokkfiskur:println({red, "Colored text"}).
+smokkfiskur:print({red, "Colored text"}).
 ```
 ---------
 ### Example
 ```erlang
--import(smokkfiskur, [println/1]).
+-import(smokkfiskur, [print/1]).
 
 update_something() ->
   %% ...
   %% ...
   %% ...
-  println({green, "Something has been updated successfully!"}).
+  print({green, "Something has been updated successfully!"}).
 ```
----------
-### Docs
-
+or
 ```erlang
--import(smokkfiskur, [println/1]).
+-import(smokkfiskur, [print/1]).
 
 
 %%=========================
 %% Text
 %%=========================
-println({red,    "Text"}).
-println({black,  "Text"}).
-println({green,  "Text"}).
-println({orange, "Text"}).
-println({blue,   "Text"}).
-println({purple, "Text"}).
-println({yellow, "Text"}).
-println({cyan,   "Text"}).
-println({gray,   "Text"}).
+print({red,    "Text"}).
+print({black,  "Text"}).
+print({green,  "Text"}).
+print({orange, "Text"}).
+print({blue,   "Text"}).
+print({purple, "Text"}).
+print({yellow, "Text"}).
+print({cyan,   "Text"}).
+print({gray,   "Text"}).
 
 %%=========================
 %% Background

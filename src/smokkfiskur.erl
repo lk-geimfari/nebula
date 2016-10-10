@@ -5,7 +5,7 @@
 -module(smokkfiskur).
 -author("Lk Geimfari").
 
--export ([println/1, background/1]).
+-export ([print/1, background/1]).
 
 
 %%====================================================
@@ -23,16 +23,16 @@
 -define (_OTHER(S), S).
 
 
-println({black,  S})  -> io:format(?BLACK(S));
-println({red,    S})  -> io:format(?RED(S));
-println({green,  S})  -> io:format(?GREEN(S));
-println({orange, S})  -> io:format(?ORANGE(S));
-println({blue,   S})  -> io:format(?BLUE(S));
-println({purple, S})  -> io:format(?PURPLE(S));
-println({yellow, S})  -> io:format(?YELLOW(S));
-println({cyan,   S})  -> io:format(?CYAN(S));
-println({grey,   S})  -> io:format(?GREY(S));
-println({Other,  S})  -> io:format(?_OTHER(S)).
+print({black,  S})  -> io:format(?BLACK(S));
+print({red,    S})  -> io:format(?RED(S));
+print({green,  S})  -> io:format(?GREEN(S));
+print({orange, S})  -> io:format(?ORANGE(S));
+print({blue,   S})  -> io:format(?BLUE(S));
+print({purple, S})  -> io:format(?PURPLE(S));
+print({yellow, S})  -> io:format(?YELLOW(S));
+print({cyan,   S})  -> io:format(?CYAN(S));
+print({grey,   S})  -> io:format(?GREY(S));
+print({Other,  S})  -> io:format(?_OTHER(S)).
 
 
 background({black, Str})  ->
