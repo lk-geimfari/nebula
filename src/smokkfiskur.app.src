@@ -2,6 +2,7 @@
  [{description, "Library for colored output in Erlang"},
   {vsn, "0.1.1"},
   {registered, []},
+  {modules, []},
   {applications,
    [kernel,
     stdlib
@@ -9,7 +10,7 @@
   {env,[]},
   {modules, []},
 
-  {maintainers, ["Lk Geimfari"]},
+  {maintainers, ["Lk Geimfari <likid.geimfari@gmail.com>"]},
   {licenses, ["BSD-3-Clause"]},
-  {links, ["https://github.com/lk-geimfari/smokkfiskur"]}
+  {links, [{"Github", "https://github.com/lk-geimfari/smokkfiskur"}]}
  ]}.
