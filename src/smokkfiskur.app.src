@@ -1,6 +1,6 @@
 {application, smokkfiskur,
  [{description, "Library for colored output in Erlang"},
-  {vsn, "0.1.1"},
+  {vsn, "0.1.2"},
   {registered, []},
   {modules, []},
   {applications,
