@@ -54,3 +54,7 @@ background({red,    "Text"}).
 background({black,  "Text"}).
 
 ```
+### Screenshot
+
+![Meow](https://raw.githubusercontent.com/lk-geimfari/smokkfiskur/master/other/example.png)
+
