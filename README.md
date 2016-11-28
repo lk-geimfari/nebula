@@ -8,7 +8,7 @@
   <img src="https://raw.githubusercontent.com/lk-geimfari/smokkfiskur/master/other/logo2.png">
 </p>
 ---------
-__Smokkfiskur__ is a small library for colored (ANSI) output in Erlang. It's can be useful when you need to create a command-line applications.
+__Smokkfiskur__ is a small library for colored (ANSI) output in Erlang. It's can be useful when you need to create a user-friendly command-line applications.
 
 
 ### Installation
