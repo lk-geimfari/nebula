@@ -1,7 +1,7 @@
 # Smokkfiskur
 
 [![Build Status](https://travis-ci.org/lk-geimfari/smokkfiskur.svg?branch=master)](https://travis-ci.org/lk-geimfari/smokkfiskur)
-[![Hex](https://img.shields.io/badge/hex-v0.1.3-brightgreen.svg)](https://hex.pm/packages/smokkfiskur)
+[![Hex.pm](https://img.shields.io/hexpm/v/plug.svg)](https://hex.pm/packages/smokkfiskur)
 [![BSD](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000)](https://github.com/lk-geimfari/smokkfiskur/blob/master/LICENSE)
 
 <p align="center">
@@ -54,7 +54,3 @@ background({red,    "Text"}).
 background({black,  "Text"}).
 
 ```
-### Screenshot
-
-![Meow](https://raw.githubusercontent.com/lk-geimfari/smokkfiskur/master/other/example.png)
-
