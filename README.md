@@ -8,12 +8,8 @@
   <img src="https://raw.githubusercontent.com/lk-geimfari/smokkfiskur/master/other/logo2.png">
 </p>
 ---------
-<<<<<<< HEAD
-__Smokkfiskur__ is a small library for colored (ANSI) output in Erlang. It's can be useful when you 
-need to create a command-line applications.
-=======
-__Smokkfiskur__ is a small library for colored (ANSI) output in Erlang. It's can be useful when you need to create a user-friendly command-line applications.
->>>>>>> dad8e22cfc2443ea481a1cb202470c5882e3901f
+
+__Smokkfiskur__ is a small library for colored (ANSI) output in Erlang. It's can be useful when you need to create a command-line applications.
 
 
 ### Installation
@@ -22,7 +18,7 @@ Make sure, that `rebar3` installed and configured in your OS. If not, then [here
 Add `{deps, [{smokkfiskur, “0.1.3”}]}.` to your `rebar.config` and run the following command:
 
 ```
-➜  ~  rebar3 compile
+➜ ~ rebar3 compile
 ```
 
 
