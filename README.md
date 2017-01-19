@@ -26,7 +26,7 @@ Add `{deps, [{smokkfiskur, “0.1.3”}]}.` to your `rebar.config` and run the f
 Just use the following format `print(color, "Text").`
 
 ```erlang
-smokkfiskur:print({red, "Colored text"}).
+smokkfiskur:print(red, "Red text").
 ```
 ---------
 ### Example
