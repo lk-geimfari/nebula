@@ -13,9 +13,7 @@ __Smokkfiskur__ is a small library for colored (ANSI) output in Erlang. It's can
 
 
 ### Installation
-Make sure, that `rebar3` installed and configured in your OS. If not, then [here](https://medium.com/@brucify/using-rebar3-to-manage-erlang-packages-282f78adff1e#.pyz8i9cvy) you can find a good manual. 
-
-Add `{deps, [{smokkfiskur, “0.1.3”}]}.` to your `rebar.config` and run the following command:
+Make sure, that `rebar3` installed and configured in your OS and add `{deps, [{smokkfiskur, "0.1.3"}]}.` to your `rebar.config` now run the following command:
 
 ```
 ➜ ~ rebar3 compile
