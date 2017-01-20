@@ -19,6 +19,11 @@ Make sure, that `rebar3` installed and configured in your OS and add `{deps, [{s
 ➜ ~ rebar3 compile
 ```
 
+### Testing
+For run tests you should use task `eunit` of `rebar3`. 
+```
+➜ ~ rebar3 eunit
+```
 
 ### Usage
 Just use the following format `print(color, "Text").`
