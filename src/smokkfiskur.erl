@@ -23,7 +23,8 @@ print(purple, S)  -> io:format(?PURPLE (S));
 print(yellow, S)  -> io:format(?YELLOW (S));
 print(cyan,   S)  -> io:format(?CYAN   (S));
 print(grey,   S)  -> io:format(?GREY   (S));
-print(Other,  S)  -> io:format(?_OTHER (S)).
+print(Other,  S)  -> 
+    io:format(?_OTHER(S)), badmatch.
 
 
 %%====================================================
@@ -37,4 +38,5 @@ background(yellow, S)  -> io:format(?YELLOW_BG (S));
 background(blue,   S)  -> io:format(?BLUE_BG   (S));
 background(purple, S)  -> io:format(?PURPLE_BG (S));
 background(cyan,   S)  -> io:format(?CYAN_BG   (S));
-background(Other,  S)  -> io:format(?_OTHER    (S)).
+background(Other,  S)  -> 
+    io:format(?_OTHER(S)), badmatch.

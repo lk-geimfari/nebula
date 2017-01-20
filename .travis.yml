@@ -8,4 +8,4 @@ otp_release:
   - 17.5
   - R16B03
 
-script: 'make ci'
+script: 'make test'
