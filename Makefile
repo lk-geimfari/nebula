@@ -17,7 +17,6 @@ help:
 	@echo "\033[93m::::::::::::::::::::::::::::::::::::::::::::::::::::::::\033[0m"
 	@echo "\033[92mtest        -- Run EUnit Tests.\033[0m"
 	@echo "\033[92mclean       -- Remove compiled beam files from apps.\033[0m"
-	@echo "\033[92minstall     -- Install rebar3.\033[0m"
 	@echo "\033[92mcompile     -- Compile apps .app.src and .erl files.\033[0m"
 	@echo "\033[92mpublish     -- Publish a new version of your package and update the package.\033[0m"
 	@echo "\033[93m::::::::::::::::::::::::::::::::::::::::::::::::::::::::\033[0m"
