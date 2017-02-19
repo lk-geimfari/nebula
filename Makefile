@@ -23,20 +23,17 @@ help:
 	@echo "\033[93m::::::::::::::::::::::::::::::::::::::::::::::::::::::::\033[0m"
 
 
-install:
-	wget https://s3.amazonaws.com/rebar3/rebar3 && chmod +x rebar3
-
 test:
-	rebar3 eunit
+	rebar eunit
 
 release:
 	rebar3 hex publish
 
 compile:
-	rebar3 compile
+	rebar compile
 
 clean:
 	rm --force --recursive _build/
 	rm --force --recursive ebin/
 
-.PHONY: install test release compile clean
+.PHONY: test release compile clean
