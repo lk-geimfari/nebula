@@ -8,7 +8,7 @@
 
 -export([background/2, print/2]).
 
--include("macros.hrl").
+-include("../include/macros.hrl").
 
 %%====================================================
 %% Functions for colored print.
