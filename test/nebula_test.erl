@@ -1,4 +1,4 @@
--module(smokkfiskur_test).
+-module(nebula_test).
 
 
 -compile(export_all).
