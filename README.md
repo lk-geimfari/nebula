@@ -13,33 +13,16 @@ __Nebula__ is a small library for colored (ANSI) output in Erlang. It's can be u
 
 ### Installation
 
-Add `nebula` to your rebar.config file:
-```
-{deps, [
-  {nebula, "0.1.3"}
-]}.
-```
+Add `{nebula, "0.1.0"}` to your rebar.config file and run following commands:
 
-And compile it:
-
-```
-➜ ~ make compile
-```
-
-### Testing
-For run tests you should use task `eunit` of `rebar3`. 
 ```
 ➜ ~ make test
+➜ ~ make compile
 ```
 
 ### Usage
 Just use the following format `print(color, "Text").`
 
-```erlang
-nebula:print(red, "Red text").
-```
----------
-### Example
 ```erlang
 -import(nebula, [print/2]).
 
