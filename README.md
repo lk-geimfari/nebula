@@ -5,7 +5,7 @@
 [![BSD](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000)](https://github.com/lk-geimfari/nebula/blob/master/LICENSE)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lk-geimfari/nebula/master/other/logo2.png">
+  <img src="https://raw.githubusercontent.com/lk-geimfari/nebula/master/other/logo.png">
 </p>
 ---------
 
