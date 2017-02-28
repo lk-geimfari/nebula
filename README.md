@@ -7,22 +7,29 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/lk-geimfari/nebula/master/other/logo.png">
 </p>
----------
 
-__Nebula__ is a small library for colored (ANSI) output in Erlang. It's can be useful when you need to create a command-line applications.
+__Nebula__ is a small library for colored (ANSI) output in Erlang. It's can be useful when you need to create a command-line application.
 
 
 ### Installation
-Make sure, that `rebar3` installed and configured in your OS and add `{deps, [{nebula, "0.1.3"}]}.` to your `rebar.config` now run the following command:
+
+Add `nebula` to your rebar.config file:
+```
+{deps, [
+  {nebula, "0.1.3"}
+]}.
+```
+
+And compile it:
 
 ```
-➜ ~ rebar3 compile
+➜ ~ make compile
 ```
 
 ### Testing
 For run tests you should use task `eunit` of `rebar3`. 
 ```
-➜ ~ rebar3 eunit
+➜ ~ make test
 ```
 
 ### Usage
@@ -44,24 +51,7 @@ update_something() ->
 ```
 or
 
-```erlang
--import(nebula, [print/2]).
 
-
-%%=========================
-%% Text
-%%=========================
-print(red,    "Text").
-print(black,  "Text").
-
-%%=========================
-%% Background
-%%=========================
-
-
-background(red,    "Text").
-background(black,  "Text").
-```
 ### Screenshot
 
 [Here](https://raw.githubusercontent.com/lk-geimfari/nebula/master/other/screen.png) you can find screenshot.
