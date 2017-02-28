@@ -49,8 +49,6 @@ update_something() ->
   %% ...
   print(green, "Something has been updated successfully!").
 ```
-or
-
 
 ### Screenshot
 
