@@ -1,8 +1,8 @@
 ROOT=./
 
 VERSION = 0.1.4
-PROJECT_NAME = smokkfiskur
-REPOSITORY_URL = https://github.com/lk-geimfari/smokkfiskur
+PROJECT_NAME = nebula
+REPOSITORY_URL = https://github.com/lk-geimfari/nebula
 
 help:
 	@echo "Project and maintainer:"

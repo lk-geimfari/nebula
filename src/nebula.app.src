@@ -1,6 +1,6 @@
-{application, smokkfiskur,
+{application, nebula,
  [{description, "Library for colored output in Erlang"},
-  {vsn, "0.1.4"},
+  {vsn, "0.1.0"},
   {registered, []},
   {modules, []},
   {applications,
@@ -12,5 +12,5 @@
 
   {maintainers, ["Lk Geimfari <likid.geimfari@gmail.com>"]},
   {licenses, ["BSD-3-Clause"]},
-  {links, [{"Github", "https://github.com/lk-geimfari/smokkfiskur"}]}
+  {links, [{"Github", "https://github.com/lk-geimfari/nebula"}]}
  ]}.

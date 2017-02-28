@@ -2,13 +2,13 @@
 %%% @author Lk Geimfari <likid.geimfari@gmail.com>
 %%% @copyright (C) 2016, Lk Geimfari (Isaak Uchakaev)
 %%%-------------------------------------------------------------------
--module(smokkfiskur).
+-module(nebula).
 
--author("Lk Geimfari").
+-author("Likid Geimfari").
 
 -export([background/2, print/2]).
 
--include("../include/macros.hrl").
+-include("../include/colors.hrl").
 
 %%====================================================
 %% Functions for colored print.
