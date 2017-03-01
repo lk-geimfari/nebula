@@ -1,8 +1,7 @@
 {application, nebula,
- [{description, "Library for colored output in Erlang"},
+ [{description, "An OTP library"},
   {vsn, "0.1.0"},
   {registered, []},
-  {modules, []},
   {applications,
    [kernel,
     stdlib
@@ -10,7 +9,7 @@
   {env,[]},
   {modules, []},
 
-  {maintainers, ["Lk Geimfari <likid.geimfari@gmail.com>"]},
-  {licenses, ["BSD-3-Clause"]},
-  {links, [{"Github", "https://github.com/lk-geimfari/nebula"}]}
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
  ]}.
