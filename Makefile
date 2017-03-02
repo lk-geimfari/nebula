@@ -1,6 +1,6 @@
 ROOT=./
 
-VERSION = 0.1.4
+VERSION = 0.1.0
 PROJECT_NAME = nebula
 REPOSITORY_URL = https://github.com/lk-geimfari/nebula
 
