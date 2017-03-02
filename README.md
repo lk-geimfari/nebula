@@ -1,6 +1,6 @@
 # Nebula
 
-[![Build Status](https://travis-ci.org/lk-geimfari/smokkfiskur.svg?branch=master)](https://travis-ci.org/lk-geimfari/nebula)
+[![Build Status](https://travis-ci.org/lk-geimfari/nebula.svg?branch=master)](https://travis-ci.org/lk-geimfari/nebula)
 [![BSD](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000)](https://github.com/lk-geimfari/nebula/blob/master/LICENSE)
 
 <p align="center">
