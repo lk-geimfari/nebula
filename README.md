@@ -30,7 +30,3 @@ update_something() ->
   %% ...
   print(green, "Something has been updated successfully!").
 ```
-
-### Screenshot
-
-[Here](https://raw.githubusercontent.com/lk-geimfari/nebula/master/other/screen.png) you can find screenshot.
