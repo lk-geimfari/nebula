@@ -38,5 +38,7 @@ compile:
 clean:
 	rm --force --recursive _build/
 	rm --force --recursive ebin/
+	rm --force --recursive .eunit/
+	rm --force --recursive .rebar/
 
 .PHONY: test release compile clean
