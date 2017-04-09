@@ -5,7 +5,7 @@
 -author("Likid Geimfari").
 -license("BSD 3-clause").
 
--include("../include/nebula.hrl").
+-include("nebula.hrl").
 
 %%====================================================
 %% Functions for colored print.
