@@ -3,7 +3,6 @@
 -export([background/2, print/2]).
 
 -author("Likid Geimfari").
--license("BSD 3-clause").
 
 -include("nebula.hrl").
 
