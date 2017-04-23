@@ -1,15 +1,15 @@
 {application, nebula,
- [{description, "Library for colored output in Erlang"},
-  {vsn, "0.1.1"},
-  {registered, []},
-  {applications,
-   [kernel,
-    stdlib
-   ]},
-  {env,[]},
-  {modules, []},
-
-  {maintainers, []},
-  {licenses, []},
-  {links, []}
- ]}.
+    [{description, "Library for colored output in Erlang"},
+        {vsn, "0.1.1"},
+        {registered, []},
+        {applications,
+            [kernel,
+                stdlib
+            ]},
+        {env, []},
+        {modules, []},
+        {maintainers, ["Likid Geimfari"]},
+        {licenses, ["BSD-3-Clause"]},
+        {links, [{"Github", "https://github.com/lk-geimfari/nebula"}]}
+    ]
+}.
