@@ -39,7 +39,7 @@ update_something() ->
 Using with LFE (Lisp Flavoured Erlang):
 ```lfe
 (defun update_something ()
-    (nebula:print :green "Something has been updated successfully!"))
+    (nebula:print :GREEN "Something has been updated successfully!"))
 ```
 
 Using with Elixir:
