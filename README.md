@@ -36,6 +36,12 @@ update_something() ->
   nebula:print(?SUCCESS, "Something has been updated successfully!").
 ```
 
+Using with LFE (Lisp Flavoured Erlang):
+```lfe
+(defun update_something ()
+    (nebula:print :green "Something has been updated successfully!"))
+```
+
 Using with Elixir:
 
 ```elixir
