@@ -28,12 +28,10 @@ or if you want to use this package with `Elixir` add `{:nebula, "~> 0.1.1"}` to 
 Using with Erlang:
 
 ```erlang
--define(SUCCESS, green).
-
 update_something() ->
   %% ...
   %% ...
-  nebula:print(?SUCCESS, "Something has been updated successfully!").
+  nebula:print(green, "Something has been updated successfully!").
 ```
 
 Using with LFE (Lisp Flavoured Erlang):
