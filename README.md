@@ -56,3 +56,7 @@ First argument is color name (`atom`), second - your message.
 
 - `print/2`: `black`, `red`, `green`, `orange`, `blue`, `purple`, `yellow`, `cyan`, `grey`.
 - `background/2`: `black`, `red`, `green`, `yellow`, `blue`, `purple`, `cyan`.
+
+
+### License
+BSD 3-Clause License
