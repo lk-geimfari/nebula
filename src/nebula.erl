@@ -11,45 +11,51 @@
 %%====================================================
 
 -spec print(atom(), list()) -> atom().
-print(black, S) when is_list(S) ->
-  io:format(?BLACK(S));
-print(red, S) when is_list(S) ->
-  io:format(?RED(S));
-print(green, S) when is_list(S) ->
-  io:format(?GREEN(S));
-print(orange, S) when is_list(S) ->
-  io:format(?ORANGE(S));
-print(blue, S) when is_list(S) ->
-  io:format(?BLUE(S));
-print(purple, S) when is_list(S) ->
-  io:format(?PURPLE(S));
-print(yellow, S) when is_list(S) ->
-  io:format(?YELLOW(S));
-print(cyan, S) when is_list(S) ->
-  io:format(?CYAN(S));
-print(grey, S) when is_list(S) ->
-  io:format(?GREY(S));
-print(_, S) ->
-  ?_OTHER(S).
+print(Color, S) when is_atom(Color) and is_list(S) ->
+  case Color of
+    black ->
+      io:format(?BLACK(S));
+    red ->
+      io:format(?RED(S));
+    green ->
+      io:format(?GREEN(S));
+    orange ->
+      io:format(?ORANGE(S));
+    blue ->
+      io:format(?BLUE(S));
+    purple ->
+      io:format(?PURPLE(S));
+    yellow ->
+      io:format(?YELLOW(S));
+    cyan ->
+      io:format(?CYAN(S));
+    grey ->
+      io:format(?GREY(S));
+    _ ->
+      ?_OTHER(S)
+  end.
 
 %%====================================================
 %% Functions for colored background.
 %%====================================================
 
 -spec background(atom(), list()) -> atom().
-background(black, S) when is_list(S) ->
-  io:format(?BLACK_BG(S));
-background(red, S) when is_list(S) ->
-  io:format(?RED_BG(S));
-background(green, S) when is_list(S) ->
-  io:format(?GREEN_BG(S));
-background(yellow, S) when is_list(S) ->
-  io:format(?YELLOW_BG(S));
-background(blue, S) when is_list(S) ->
-  io:format(?BLUE_BG(S));
-background(purple, S) when is_list(S) ->
-  io:format(?PURPLE_BG(S));
-background(cyan, S) when is_list(S) ->
-  io:format(?CYAN_BG(S));
-background(_, S) when is_list(S) ->
-  io:format(?_OTHER(S)).
+background(Color, S) when is_atom(Color) and is_list(S) ->
+  case Color of
+    black ->
+      io:format(?BLACK_BG(S));
+    red ->
+      io:format(?RED_BG(S));
+    green ->
+      io:format(?GREEN_BG(S));
+    blue ->
+      io:format(?BLUE_BG(S));
+    purple ->
+      io:format(?PURPLE_BG(S));
+    yellow ->
+      io:format(?YELLOW_BG(S));
+    cyan ->
+      io:format(?CYAN_BG(S));
+    _ ->
+      ?_OTHER(S)
+  end.
