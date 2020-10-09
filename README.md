@@ -1,6 +1,7 @@
 # Nebula
 
 [![Build Status](https://travis-ci.org/lk-geimfari/nebula.svg?branch=master)](https://travis-ci.org/lk-geimfari/nebula)
+![Hex.pm](https://img.shields.io/hexpm/v/nebula?color=brightgreen&label=hex&logo=s)
 [![BSD](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000)](https://github.com/lk-geimfari/nebula/blob/master/LICENSE)
 
 <p align="center">
