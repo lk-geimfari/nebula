@@ -7,7 +7,7 @@
   <img src="https://raw.githubusercontent.com/lk-geimfari/nebula/master/media/logo.png">
 </p>
 
-[__Nebula__](https://hex.pm/packages/nebula) is a small library for colored ([ANSI](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors)) output in Erlang/Elixir. It's can be useful when you need to create a user-friendly command-line application.
+[__Nebula__](https://hex.pm/packages/nebula) is a small library for colored ([ANSI](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors)) output in Erlang/Elixir. It's can be useful when you need to create user-friendly command-line application.
 
 
 ### Installation
