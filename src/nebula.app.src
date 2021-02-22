@@ -8,7 +8,7 @@
             ]},
         {env, []},
         {modules, []},
-        {maintainers, ["Likid Geimfari"]},
+        {maintainers, ["Isaak Uchakaev <likid.geimfari@gmail.com>"]},
         {licenses, ["BSD-3-Clause"]},
         {links, [{"Github", "https://github.com/lk-geimfari/nebula"}]}
     ]

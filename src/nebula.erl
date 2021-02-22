@@ -2,7 +2,7 @@
 
 -export([background/2, print/2]).
 
--author("Likid Geimfari").
+-author("Isaak Uchakaev <likid.geimfari@gmail.com>").
 
 -include("nebula.hrl").
 

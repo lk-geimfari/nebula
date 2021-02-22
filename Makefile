@@ -7,7 +7,7 @@ REPOSITORY_URL = https://github.com/lk-geimfari/nebula
 help:
 	@echo "Project and maintainer:"
 	@echo "\033[93m::::::::::::::::::::::::::::::::::::::::::::::::::::::::\033[0m"
-	@echo "\033[92mAuthor:     Likid Geimfari <likid.geimfari@gmail.com>\033[0m"
+	@echo "\033[92mAuthor:     Isaak Uchakaev <likid.geimfari@gmail.com>\033[0m"
 	@echo "\033[92mPackage:    $(PROJECT_NAME) $(VERSION)\\033[0m"
 	@echo "\033[92mRepository: $(REPOSITORY_URL)\033[0m"
 	@echo "\033[92mLicense:    BSD-3-Clause\033[0m"
