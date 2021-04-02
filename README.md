@@ -1,7 +1,6 @@
 # Nebula
 
 [![test](https://github.com/lk-geimfari/nebula/actions/workflows/ci.yml/badge.svg)](https://github.com/lk-geimfari/nebula/actions/workflows/ci.yml)
-![Hex.pm](https://img.shields.io/hexpm/v/nebula?color=brightgreen&label=hex&logo=s)
 [![BSD](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000)](https://github.com/lk-geimfari/nebula/blob/master/LICENSE)
 
 <p align="center">
