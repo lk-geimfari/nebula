@@ -8,7 +8,7 @@ jobs:
     name: OTP ${{matrix.otp}}
     strategy:
       matrix:
-        otp: [23.1, 23.2, 21.2, 20.3, 19.3, 18.3]
+        otp: [23.1, 23.2]
     steps:
       - uses: actions/checkout@v2.0.0
       - uses: gleam-lang/setup-erlang@v1.1.2
